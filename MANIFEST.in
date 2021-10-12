@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include inovaitabuna_core *.css
+recursive-include inovaitabuna_core *.csv
+recursive-include inovaitabuna_core *.html
+recursive-include inovaitabuna_core *.ico
+recursive-include inovaitabuna_core *.js
+recursive-include inovaitabuna_core *.json
+recursive-include inovaitabuna_core *.md
+recursive-include inovaitabuna_core *.png
+recursive-include inovaitabuna_core *.py
+recursive-include inovaitabuna_core *.svg
+recursive-include inovaitabuna_core *.txt
+recursive-exclude inovaitabuna_core *.pyc
